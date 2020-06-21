@@ -1,22 +1,17 @@
 {
   "name": "blog-fe-cms",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "A front-end admin platform based on react.js and ant-design uses typescript for this blog.",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/BlogExplore/blog-fe-cms.git"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/BlogExplore/blog-fe-cms/issues"
-  },
-  "homepage": "https://github.com/BlogExplore/blog-fe-cms#readme",
   "devDependencies": {
     "cz-conventional-changelog": "^3.2.0"
   },
@@ -28,7 +23,33 @@
   "dependencies": {
     "@commitlint/cli": "^8.3.5",
     "@commitlint/config-conventional": "^8.3.4",
-    "husky": "^4.2.5"
+    "husky": "^4.2.5",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "@types/jest": "^24.0.0",
+    "@types/node": "^12.0.0",
+    "@types/react": "^16.9.0",
+    "@types/react-dom": "^16.9.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-scripts": "3.4.1",
+    "typescript": "~3.7.2"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   },
   "husky": {
     "hooks": {
