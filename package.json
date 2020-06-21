@@ -4,7 +4,7 @@
   "description": "A front-end admin platform based on react.js and ant-design uses typescript for this blog.",
   "private": true,
   "scripts": {
-    "start": "react-scripts start",
+    "start": "cross-env PORT=8888 react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -23,7 +23,6 @@
   "dependencies": {
     "@commitlint/cli": "^8.3.5",
     "@commitlint/config-conventional": "^8.3.4",
-    "husky": "^4.2.5",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
@@ -31,6 +30,8 @@
     "@types/node": "^12.0.0",
     "@types/react": "^16.9.0",
     "@types/react-dom": "^16.9.0",
+    "cross-env": "^7.0.2",
+    "husky": "^4.2.5",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1",
