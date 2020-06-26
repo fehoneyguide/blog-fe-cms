@@ -1,11 +1,10 @@
 import React from "react";
-import { Button } from "antd";
 import "./App.less";
+import Login from "./pages/user/login/Login";
 const App = () => {
   return (
     <>
-      app
-      <Button type="primary">Button</Button>
+      <Login />
     </>
   );
 };

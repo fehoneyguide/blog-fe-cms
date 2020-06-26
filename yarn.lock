@@ -8459,6 +8459,11 @@ path-type@^4.0.0:
   resolved "https://registry.npm.taobao.org/path-type/download/path-type-4.0.0.tgz#84ed01c0a7ba380afe09d90a8c180dcd9d03043b"
   integrity sha1-hO0BwKe6OAr+CdkKjBgNzZ0DBDs=
 
+pathseg@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.npm.taobao.org/pathseg/download/pathseg-1.2.0.tgz#22af051e28037671e7799e296fe96c5dcbe53acd"
+  integrity sha1-Iq8FHigDdnHneZ4pb+lsXcvlOs0=
+
 pbkdf2@^3.0.3:
   version "3.1.1"
   resolved "https://registry.npm.taobao.org/pbkdf2/download/pbkdf2-3.1.1.tgz#cb8724b0fada984596856d1a6ebafd3584654b94"
@@ -9944,6 +9949,14 @@ react-scripts@3.4.1:
     workbox-webpack-plugin "4.3.1"
   optionalDependencies:
     fsevents "2.1.2"
+
+react-tsparticles@^1.16.1:
+  version "1.16.1"
+  resolved "https://registry.npm.taobao.org/react-tsparticles/download/react-tsparticles-1.16.1.tgz#2f39a56cdc9da375ef28970f095007b0560738df"
+  integrity sha1-LzmlbNydo3XvKJcPCVAHsFYHON8=
+  dependencies:
+    lodash "^4.17.15"
+    tsparticles "^1.16.1"
 
 react@^16.13.1:
   version "16.13.1"
@@ -11520,6 +11533,19 @@ tslib@^1.10.0, tslib@^1.8.1, tslib@^1.9.0:
   version "1.13.0"
   resolved "https://registry.npm.taobao.org/tslib/download/tslib-1.13.0.tgz#c881e13cc7015894ed914862d276436fa9a47043"
   integrity sha1-yIHhPMcBWJTtkUhi0nZDb6mkcEM=
+
+tslib@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.npm.taobao.org/tslib/download/tslib-2.0.0.tgz#18d13fc2dce04051e20f074cc8387fd8089ce4f3"
+  integrity sha1-GNE/wtzgQFHiDwdMyDh/2Aic5PM=
+
+tsparticles@^1.16.1:
+  version "1.16.1"
+  resolved "https://registry.npm.taobao.org/tsparticles/download/tsparticles-1.16.1.tgz#37fb5dd125ff0b068c9c513ce59f39bffb754099"
+  integrity sha1-N/td0SX/CwaMnFE85Z85v/t1QJk=
+  dependencies:
+    pathseg "^1.2.0"
+    tslib "^2.0.0"
 
 tsutils@^3.17.1:
   version "3.17.1"
