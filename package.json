@@ -2,7 +2,6 @@
   "name": "blog-fe-cms",
   "version": "1.0.0",
   "description": "A front-end admin platform based on react.js and ant-design uses typescript for this blog.",
-  "private": true,
   "scripts": {
     "start": "craco start",
     "build": "craco build",
@@ -21,25 +20,25 @@
     }
   },
   "dependencies": {
-    "@commitlint/cli": "^9.0.1",
-    "@commitlint/config-conventional": "^9.0.1",
-    "@craco/craco": "^5.6.4",
+    "@commitlint/cli": "12.1.4",
+    "@commitlint/config-conventional": "12.1.4",
+    "@craco/craco": "6.2.0",
     "@testing-library/jest-dom": "^5.11.0",
-    "@testing-library/react": "^10.4.3",
-    "@testing-library/user-event": "^12.0.11",
+    "@testing-library/react": "12.0.0",
+    "@testing-library/user-event": "13.1.9",
     "@types/jest": "^26.0.3",
-    "@types/node": "^14.0.14",
-    "@types/react": "^16.9.41",
-    "@types/react-dom": "^16.9.0",
+    "@types/node": "16.3.1",
+    "@types/react": "17.0.14",
+    "@types/react-dom": "17.0.9",
     "antd": "^4.3.5",
     "craco-less": "^1.17.0",
     "cross-env": "^7.0.2",
-    "husky": "^4.2.5",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1",
+    "husky": "7.0.1",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-scripts": "4.0.3",
     "react-tsparticles": "^1.16.1",
-    "typescript": "^3.9.5"
+    "typescript": "4.3.5"
   },
   "eslintConfig": {
     "extends": "react-app"
